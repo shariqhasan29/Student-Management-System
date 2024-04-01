@@ -1,0 +1,65 @@
+.addstudent{
+    display: flex;
+    background-color: white;
+    .addstudentcontainer{
+        flex: 5;
+        border: .5px solid rgba(0, 0, 0, 0.308);
+        background-color: whitesmoke;
+        
+        box-shadow: 5px 4px 7px 0px rgba(0,0,0,0.65) inset;
+        -webkit-box-shadow: 5px 4px 7px 0px rgba(0,0,0,0.65) inset;
+        -moz-box-shadow: 5px 4px 7px 0px rgba(0,0,0,0.65) inset;
+
+        h3{
+            text-align: center;
+            margin: 20px;
+        }
+        .cards{
+            display: flex;
+            gap: 25px;
+            justify-content: center;
+
+            .add{
+                
+                background-color: rgba(0, 255, 170, 0.637);
+                color: whitesmoke;
+                border-radius: 10px;
+                cursor: pointer;
+                padding: 10px;
+                font-size: 24px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .icon{
+                    font-size: 50px;
+                    color: black;
+                }
+                
+            }
+            .view{
+                
+                background-color: rgba(0, 162, 255, 0.637);
+                color: whitesmoke;
+                border-radius: 10px;
+                cursor: pointer;
+                padding: 10px;
+                font-size: 24px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+
+                .icon{
+                    font-size: 50px;
+                    color: black;
+                }
+                
+            }
+        }
+        .form{
+            margin: 20px;
+        }
+
+       
+    }
+}

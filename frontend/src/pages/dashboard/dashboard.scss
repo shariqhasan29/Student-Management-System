@@ -1,0 +1,76 @@
+.dashboard{
+    display: flex;
+    background-color: white;
+    .dashboardContainer{
+        flex: 5;
+        border: .5px solid rgba(0, 0, 0, 0.308);
+        background-color: whitesmoke;
+        
+        box-shadow: 5px 4px 7px 0px rgba(0,0,0,0.65) inset;
+        -webkit-box-shadow: 5px 4px 7px 0px rgba(0,0,0,0.65) inset;
+        -moz-box-shadow: 5px 4px 7px 0px rgba(0,0,0,0.65) inset;
+        .dashboardcontent{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 40px;
+            
+
+            .dashboardbox1{
+                width: 250px;
+                height: 200px;
+                border-radius: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(189, 39, 39, 0.445);
+                box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+                -webkit-box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+                -moz-box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+
+            }
+            .dashboardbox2{
+                width: 250px;
+                height: 200px;
+                border-radius: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(189, 39, 156, 0.445);
+                box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+                -webkit-box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+                -moz-box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+
+            }
+            .dashboardbox3{
+                width: 250px;
+                height: 200px;
+                border-radius: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(39, 184, 189, 0.445);
+                box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+                -webkit-box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+                -moz-box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+
+            }
+            .dashboardbox4{
+                width: 250px;
+                height: 200px;
+                border-radius: 30px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                background-color: rgba(39, 189, 46, 0.445);
+                box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+                -webkit-box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+                -moz-box-shadow: 3px -11px 60px -1px rgba(0,0,0,0.75) inset;
+
+            }
+        }
+    }
+}
