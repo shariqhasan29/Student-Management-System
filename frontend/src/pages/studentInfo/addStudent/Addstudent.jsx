@@ -18,14 +18,14 @@ const Addstudent = () => {
           <Link to='/addStudent' style={{textDecoration:'none'}}>
             <div className="add">
               <PersonAddAltOutlinedIcon className='icon'/>
-              <span>add Student</span>
+              <span>Add Students</span>
             </div>
           </Link>
 
           <Link to='/viewStudent' style={{textDecoration:'none'}}>
             <div className="view">
               <RemoveRedEyeOutlinedIcon className='icon'/>
-              <span>view Student</span>
+              <span>View Students</span>
             </div>
           </Link>
 

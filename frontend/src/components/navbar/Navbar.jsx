@@ -25,7 +25,7 @@ const Navbar = () => {
 
                 </div>
                 <div className="item">
-                    <img src={profilepic} alt="" className='avatar'/>
+                    <img src={profilepic} alt="profilepic" className='avatar'/>
 
                 </div>
             </div>

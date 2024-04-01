@@ -1,8 +1,13 @@
-import React from 'react'
+import Sidebar from "../../../components/sidebar/Sidebar"
 
 const Nongst = () => {
   return (
-    <div>Nongst</div>
+    <div className="gst">
+      <Sidebar/>
+      <div className="gstcontainer">
+        hi
+      </div>
+    </div>
   )
 }
 

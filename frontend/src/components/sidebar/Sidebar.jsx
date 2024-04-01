@@ -13,7 +13,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="top">
         <span className="logo">
-          <img src={logo} width="200px" height="100px" />
+          <img src={logo} width="200px" height="100px" alt="logo" />
         </span>
       </div>
 
@@ -97,18 +97,20 @@ const Sidebar = () => {
             </li>
             <li>
               <Accordion.Item eventKey="3">
+              <Link
+                    to="/Receipt"
+                    style={{ textDecoration: "none", color: "inherit" }}
+                  >
                 <Accordion.Header>
                   <span>
                     <ReceiptLongIcon />
                   </span>
-                  <Link
-                    to="/Receipt"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
+                  
                     Receipt
-                  </Link>
+                  
                   
                 </Accordion.Header>
+                </Link>
               </Accordion.Item>
             </li>
             <li>

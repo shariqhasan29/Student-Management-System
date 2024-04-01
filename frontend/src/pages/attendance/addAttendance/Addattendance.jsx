@@ -1,8 +1,14 @@
-import React from 'react'
+import Sidebar from "../../../components/sidebar/Sidebar"
+import "./addattendance.scss"
 
 const Addattendance = () => {
   return (
-    <div>Addattendance</div>
+    <div className="addattendance">
+      <Sidebar/>
+      <div className="addattendancecontainer">
+        hi
+      </div>
+    </div>
   )
 }
 

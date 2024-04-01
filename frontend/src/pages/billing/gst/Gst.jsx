@@ -1,8 +1,15 @@
+import Sidebar from '../../../components/sidebar/Sidebar'
 import './gst.scss'
+
 
 const Gst = () => {
   return (
-    <div>Gst</div>
+    <div className="gst">
+      <Sidebar/>
+      <div className="gstcontainer">
+        hi
+      </div>
+    </div>
   )
 }
 

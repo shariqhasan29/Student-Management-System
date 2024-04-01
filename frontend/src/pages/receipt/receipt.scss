@@ -1,0 +1,14 @@
+.receipt{
+    display: flex;
+    background-color: white;
+
+    .receiptcontainer{
+        flex: 5;
+        border: .5px solid rgba(0, 0, 0, 0.308);
+        background-color: whitesmoke;
+        
+        box-shadow: 5px 4px 7px 0px rgba(0,0,0,0.65) inset;
+        -webkit-box-shadow: 5px 4px 7px 0px rgba(0,0,0,0.65) inset;
+        -moz-box-shadow: 5px 4px 7px 0px rgba(0,0,0,0.65) inset;
+    }
+}

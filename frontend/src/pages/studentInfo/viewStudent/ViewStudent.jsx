@@ -10,21 +10,21 @@ const ViewStudent = () => {
     <div className='addstudent'>
     <Sidebar/>
     <div className="addstudentcontainer">
-      <h3 className='heading'>Student Entry Form</h3>
+      <h3 className='heading'>Students Data</h3>
 
       <div className="cards">
 
         <Link to='/addStudent' style={{textDecoration:'none'}}>
           <div className="add">
             <PersonAddAltOutlined className='icon'/>
-            <span>add Student</span>
+            <span>Add Students</span>
           </div>
         </Link>
 
         <Link to='/viewStudent' style={{textDecoration:'none'}}>
           <div className="view">
             <RemoveRedEyeOutlined className='icon'/>
-            <span>view Student</span>
+            <span>View Students</span>
           </div>
         </Link>
 
@@ -33,7 +33,7 @@ const ViewStudent = () => {
       
     </div>
 
-  </div>
+    </div>
   )
 }
 

@@ -1,8 +1,13 @@
-import React from 'react'
+import Sidebar from "../../../components/sidebar/Sidebar"
 
 const ViewAttendance = () => {
   return (
-    <div>V</div>
+    <div className="addattendance">
+      <Sidebar/>
+      <div className="addattendancecontainer">
+        hi
+      </div>
+    </div>
   )
 }
 

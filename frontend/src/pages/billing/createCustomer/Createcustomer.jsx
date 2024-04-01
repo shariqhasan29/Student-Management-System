@@ -1,8 +1,14 @@
-import React from 'react'
+import Sidebar from "../../../components/sidebar/Sidebar"
+import './createcustomer.scss'
 
 const Createcustomer = () => {
   return (
-    <div>Createcustomer</div>
+    <div className="createcustomer">
+      <Sidebar/>
+      <div className="createcustomercontainer">
+        hi
+      </div>
+    </div>
   )
 }
 
