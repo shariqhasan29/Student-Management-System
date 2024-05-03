@@ -2,7 +2,7 @@ import Sidebar from "../../../components/sidebar/Sidebar"
 import { Link } from "react-router-dom"
 import PersonAddAltOutlinedIcon from '@mui/icons-material/PersonAddAltOutlined';
 import RemoveRedEyeOutlinedIcon from '@mui/icons-material/RemoveRedEyeOutlined';
-import Form  from "../../../components/addStuForm/From";
+
 
 const Addemployee = () => {
   return (
@@ -31,7 +31,7 @@ const Addemployee = () => {
       </div>
 
       <div className="form">
-        <Form/>
+        
       </div>
       
     </div>

@@ -56,9 +56,29 @@
                 
             }
         }
-        .form{
-            margin: 20px;
+
+        form{
+           padding: 50px;
+           display: flex;
+           flex-direction: column;
+
+
+           button{
+            margin-top: 20px;
+            padding: 5px;
+            background-color: rgba(68, 3, 68, 0.699);
+            color: whitesmoke;
+            border: none;
+            outline: none;
+            border-radius: 8px;
+            
+            
+           }
+           .file{
+            margin-top: 20px;
+           }
         }
+       
 
        
     }

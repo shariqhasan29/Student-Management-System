@@ -8,7 +8,10 @@ import ReceiptLongIcon from "@mui/icons-material/ReceiptLong";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import { Link } from "react-router-dom";
 
+
 const Sidebar = () => {
+  
+
   return (
     <div className="sidebar">
       <div className="top">
@@ -16,25 +19,23 @@ const Sidebar = () => {
           <img src={logo} width="200px" height="100px" alt="logo" />
         </span>
       </div>
+      
 
       <div className="center">
         <Accordion>
           <ul>
             <li>
               <Accordion.Item eventKey="0">
-              <Link
-                    to="/"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
-                <Accordion.Header>
-                  <span>
-                    <DashboardIcon />
-                  </span>
-                  Dashboard
-                  
-                    
-                 
-                </Accordion.Header>
+                <Link
+                  to="/"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <Accordion.Header>
+                    <span>
+                      <DashboardIcon />
+                    </span>
+                    Dashboard
+                  </Accordion.Header>
                 </Link>
               </Accordion.Item>
             </li>
@@ -79,7 +80,8 @@ const Sidebar = () => {
                 <Accordion.Header>
                   <span>
                     <Groups3Icon />
-                  </span>Attendance
+                  </span>
+                  Attendance
                 </Accordion.Header>
                 <Link
                   to="/addAttendance"
@@ -97,19 +99,16 @@ const Sidebar = () => {
             </li>
             <li>
               <Accordion.Item eventKey="3">
-              <Link
-                    to="/Receipt"
-                    style={{ textDecoration: "none", color: "inherit" }}
-                  >
-                <Accordion.Header>
-                  <span>
-                    <ReceiptLongIcon />
-                  </span>
-                  
+                <Link
+                  to="/Receipt"
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  <Accordion.Header>
+                    <span>
+                      <ReceiptLongIcon />
+                    </span>
                     Receipt
-                  
-                  
-                </Accordion.Header>
+                  </Accordion.Header>
                 </Link>
               </Accordion.Item>
             </li>
@@ -119,7 +118,7 @@ const Sidebar = () => {
                   <span>
                     <AttachMoneyIcon />
                   </span>
-                    Billing
+                  Billing
                 </Accordion.Header>
                 <Link
                   to="/createCustomer"
@@ -144,7 +143,6 @@ const Sidebar = () => {
           </ul>
         </Accordion>
       </div>
-      <div className="bottom"></div>
     </div>
   );
 };

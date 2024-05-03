@@ -1,0 +1,26 @@
+.forminputs{
+    
+
+    .input{
+
+        display: flex;
+        flex-direction: column;
+
+        label{
+
+            margin-top: 10px;
+
+        }
+        
+        input{
+            padding: 5px;
+            font-size: 16px;
+            outline: none;
+            border: .5px solid rgba(0, 0, 0, 0.212);
+            border-radius: 7px;
+        }
+
+
+    }
+   
+}
