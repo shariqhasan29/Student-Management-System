@@ -1,8 +1,11 @@
 const addstudentschema = require('../Model/addstudentschema')
+const Addphotoschema = require('../Model/addphotoschema')
+const path = require('path')
 const multer = require('multer')
 
-
 const post_studata = async(req, res)=>{
+
+    
 
     const addstudent = new addstudentschema({
         ...req.body
@@ -11,6 +14,10 @@ const post_studata = async(req, res)=>{
     const addstudentdata = await addstudent.save()
     res.json(addstudentdata)
 
+    const photo = Addphotoschema.create({photo: req.file})
+
+
+    
 
 }
 
@@ -21,7 +28,7 @@ const mystorage = multer.diskStorage({
 
     },
     filename:(req, file, cb)=>{
-        cb(null, Date.now()+" "+ file.originalname)
+        cb(null, file.fieldname + "" + Date.now()+" "+ path.extname(file.originalname))
     }
 })
 
@@ -31,4 +38,4 @@ const upload = multer({
 })
 
 
-module.exports = {post_studata, upload}
+module.exports = {upload, post_studata}

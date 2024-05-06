@@ -11,8 +11,7 @@ const addstudentschema = new mongoose.Schema({
     fphone:Number,
     cgpa:Number,
     passedout:Number,
-    amount:Number,
-    photo:String
+    amount:Number
 })
 
 module.exports = mongoose.model('addstudents', addstudentschema)

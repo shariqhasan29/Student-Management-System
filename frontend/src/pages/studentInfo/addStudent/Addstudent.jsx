@@ -113,17 +113,17 @@ const Addstudent = () => {
   }
 
   const handleSubmit = async(e)=>{
-    e.preventDefault()
+      e.preventDefault()
 
-    const formData = new FormData()
+      // const formData = new FormData()
 
-      formData.append('values', values)
-      formData.append('file', file)
+      // formData.append('file', file)
+     
 
-    const result = await Axios.post('http://localhost:6969/addStudent', values)
+      // const photo = await Axios.post('http://localhost:6969/addStudent', formData)
+      const data = await Axios.post('http://localhost:6969/addStudent', values)
 
-    // console.log(values, file);
-    console.log(result);
+      console.log(data);
   }
 
   
